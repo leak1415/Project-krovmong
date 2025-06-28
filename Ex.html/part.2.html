@@ -3,36 +3,53 @@
 
 <head>
   <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: rgb(243, 238, 230);
+    }
+
     .container {
-      width: 100%;
-      max-width: 800px;
-      margin: 20px 20px;
+      /* width: 100%; */
+      /* max-width: 800px; */
+      /* margin: 20px 20px; */
       display: flex;
-      flex-wrap: wrap;
+      /* flex-wrap: wrap; */
       gap: 20px;
-      justify-content: center;
-      background-color: lightpink;
+      /* justify-content: center; */
+      /* background-color: lightpink; */
       padding: 20px 20px;
-      height: 100%;
-      position: relative;
+      /* height: 100%; */
+      /* position: relative; */
       /* border-radius: 12px; */
+      
+      /* color: rgb(218, 230, 230); */
+      
+    }
+    .contan{
+      border: solid 25px;
+      color: white;
+      margin-left: 23%;
+      margin-right: 20%;
+      margin-top: 10%;
     }
 
     .image-box {
-      width: 150px;
-      padding: 10px;
-      border: 2px solid #ccc;
+      width: 200px;
+      /* padding: 10px; */
+      /* border: 2px solid #ccc; */
       border: none;
       /* border-radius: 10px; */
       background-color: white;
       box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
       text-align: center;
-      height: 290px;
+      /* height: 290px; */
     }
 
     .image-box img {
+
       width: 100%;
-      height: auto;
+      /* height: auto; */
       display: block;
       /* border-radius: 8px; */
     }
@@ -81,7 +98,8 @@
       border-radius: 5px;
       border: none;
       padding: 5px 20px;
-      margin-top: 10px;
+      margin-top: 20px;
+      margin-bottom: 10px;
     }
 
     .glow {
@@ -114,99 +132,108 @@
       text-align: center;
     }
 
+    .text {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
 
+    #red {
+      margin-right: 120px;
+
+    }
   </style>
 </head>
 
 <body>
-  <div class="container">
-    <div class="image-box">
-      <img src="/image copy 2.png" alt=" light image">
-      <h>+4size</h>
-      <div class="topic">
+  <div class="contan">
+    <div class="container">
+      <div class="image-box">
+        <img src="/image copy 2.png" alt=" light image">
+        <h id="red" style="color: black;">+4size</h>
+        <div class="topic">
+        </div>
+        <div class="galary">
+          <button class="black">30ml</button>
+          <button class="small">50ml</button>
+          <button class="small">+</button>
+        </div>
+        <div class="star">
+          <img src="/image copy 4.png" alt="">
+          <img src="/image copy 4.png" alt="">
+          <img src="/image copy 4.png" alt="">
+          <img src="/image copy 4.png" alt="">
+          <img src="/image copy 6.png" alt="">
+          <h>(2473)</h>
+        </div>
+        <div class="second">
+          <h class="text" style="color: black;">30ml</h>
+          <h class="text" style="color: black;">$48</h>
+        </div>
+        <h style="font-size: x-small;color: darkgrey;">cosmic kylie jenner eau de parfum</h>
+          <button class="last">add to card -$48</button>
+      </div>
+      <div class="image-box">
+        <img src="/image copy 3.png" alt="">
+        <div class="glow">
+          <img src="/image copy 7.png" alt="">
+          <img src="/image copy 7.png" alt="">
+          <img src="/image copy 7.png" alt="">
+          <img src="/image copy 7.png" alt="">
+          <img src="/image copy 7.png" alt="">
+          <img src="/image copy 7.png " alt="">
+        </div>
+        <div class="star">
+          <img src="/image copy 4.png" alt="">
+          <img src="/image copy 4.png" alt="">
+          <img src="/image copy 4.png" alt="">
+          <img src="/image copy 4.png" alt="">
+          <img src="/image copy 6.png" alt="">
+          <h>(1197)</h>
+        </div>
+        <div class="second">
+          <h class="text" style="color: black;">1n</h>
+          <h class="text" style="color: black;">$27</h>
+        </div>
+        <h style="font-size: x-small;color: darkgrey;">cosmic kylie jenner eau de parfum</h>
+        <button class="last">add to card -$27</button>
+      </div>
+      <div class="image-box">
+        <img src="/image copy 5.png" alt="">
+        <div class="stars">
+          <img src="/image copy 4.png" alt="">
+          <img src="/image copy 4.png" alt="">
+          <img src="/image copy 4.png" alt="">
+          <img src="/image copy 4.png" alt="">
+          <img src="/image copy 4.png" alt="">
+          <h>(177)</h>
+        </div>
+        <div class="second">
+          <h class="text">Concealer brush</h>
+          <h class="text">$23</h>
+        </div>
+        <h style="font-size: x-small;color: darkgrey;">cosmic kylie jenner eau de parfum</h>
+        <button class="last">add to card -$23</button>
+      </div>
+      <div class="image-box">
+        <img src="/image copy.png" alt="">
+        <div class="stars">
+          <img src="/image copy 4.png" alt="">
+          <img src="/image copy 4.png" alt="">
+          <img src="/image copy 4.png" alt="">
+          <img src="/image copy 4.png" alt="">
+          <img src="/image copy 4.png" alt="">
+          <h>(17)</h>
+        </div>
+        <div class="second">
+          <h class="text" style="color: black;">Vanila brush</h>
+          <h class="text" style="color: black;">$30</h>
+        </div>
+        <h style="font-size: x-small;color: darkgrey;">cosmic kylie jenner eau de parfum</h>
+        <button class="last">add to card -$30</button>
+      </div>
 
-      </div>
-      <div class="galary">
-        <button class="black">30ml</button>
-        <button class="small">50ml</button>
-        <button class="small">+</button>
-      </div>
-      <div class="star">
-        <img src="/image copy 4.png" alt="">
-        <img src="/image copy 4.png" alt="">
-        <img src="/image copy 4.png" alt="">
-        <img src="/image copy 4.png" alt="">
-        <img src="/image copy 6.png" alt="">
-        <h>(2473)</h>
-      </div>
-      <div class="second">
-        <h class="text">30ml</h>
-        <h class="text">$48</h>
-      </div>
-      <h style="font-size: x-small;color: darkgrey;">cosmic kylie jenner eau de parfum</h>
-      <button class="last">add to card -$48</button>
+      <!-- Add more image boxes as needed -->
     </div>
-    <div class="image-box">
-      <img src="/image copy 3.png" alt="">
-      <div class="glow">
-        <img src="/image copy 7.png" alt="">
-        <img src="/image copy 7.png" alt="">
-        <img src="/image copy 7.png" alt="">
-        <img src="/image copy 7.png" alt="">
-        <img src="/image copy 7.png" alt="">
-        <img src="/image copy 7.png " alt="">
-      </div>
-      <div class="star">
-        <img src="/image copy 4.png" alt="">
-        <img src="/image copy 4.png" alt="">
-        <img src="/image copy 4.png" alt="">
-        <img src="/image copy 4.png" alt="">
-        <img src="/image copy 6.png" alt="">
-        <h>(1197)</h>
-      </div>
-      <div class="second">
-        <h class="text">1n</h>
-        <h class="text">$27</h>
-      </div>
-      <h style="font-size: x-small;color: darkgrey;">cosmic kylie jenner eau de parfum</h>
-      <button class="last">add to card -$27</button>
-    </div>
-    <div class="image-box">
-      <img src="/image copy 5.png" alt="">
-      <div class="stars">
-        <img src="/image copy 4.png" alt="">
-        <img src="/image copy 4.png" alt="">
-        <img src="/image copy 4.png" alt="">
-        <img src="/image copy 4.png" alt="">
-        <img src="/image copy 4.png" alt="">
-        <h>(177)</h>
-      </div>
-      <div class="second">
-        <h class="text">Concealer brush</h>
-        <h class="text">$23</h>
-      </div>
-      <h style="font-size: x-small;color: darkgrey;">cosmic kylie jenner eau de parfum</h>
-      <button class="last">add to card -$23</button>
-    </div>
-    <div class="image-box">
-      <img src="/image copy.png" alt="">
-      <div class="stars">
-        <img src="/image copy 4.png" alt="">
-        <img src="/image copy 4.png" alt="">
-        <img src="/image copy 4.png" alt="">
-        <img src="/image copy 4.png" alt="">
-        <img src="/image copy 4.png" alt="">
-        <h>(17)</h>
-      </div>
-      <div class="second">
-        <h class="text">Vanila brush</h>
-        <h class="text">$30</h>
-      </div>
-      <h style="font-size: x-small;color: darkgrey;">cosmic kylie jenner eau de parfum</h>
-      <button class="last">add to card -$30</button>
-    </div>
-
-    <!-- Add more image boxes as needed -->
   </div>
 
 </body>
